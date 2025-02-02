@@ -3,33 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Roblox Developer</title>
+    <title>Your Name | Roblox Developer</title>
     <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
 </head>
 <body>
 
-    <!-- Navbar -->
+    <!-- Navigation Bar -->
     <header>
-        <h1>Your Name</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+            <h1 class="logo">YourName</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle">☰</button>
         </nav>
     </header>
 
     <!-- Hero Section -->
-    <section id="hero">
-        <h2>🚀 Crafting Immersive Roblox Experiences</h2>
-        <p>3+ Years of Lua Scripting | Game Development | UI/UX Design</p>
-        <a href="portfolio.html" class="btn">View My Work</a>
+    <section class="hero">
+        <h2>Hello, I'm <span>Your Name</span></h2>
+        <p>A **Roblox Developer** with 3+ years of scripting experience.</p>
+        <a href="#projects" class="btn">See My Work</a>
     </section>
 
-    <footer>
-        <p>© 2025 Your Name | Roblox Developer Portfolio</p>
-    </footer>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hey! I'm a Roblox scripter with expertise in **Lua scripting**, game mechanics, and system automation. I specialize in **creating interactive and optimized gameplay experiences**.</p>
+    </section>
 
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <img src="images/project1.jpg" alt="Project 1">
+            <h3>Project Name</h3>
+            <p>A brief description of what you did in this project.</p>
+        </div>
+        <div class="project">
+            <img src="images/project2.jpg" alt="Project 2">
+            <h3>Project Name</h3>
+            <p>A brief description of what you did in this project.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
