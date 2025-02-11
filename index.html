@@ -1,65 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Roblox Developer</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abstract Hero | _proboi</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="hero">
+    <!-- Canvas for the abstract animated background -->
+    <canvas id="hero-canvas"></canvas>
 
-    <!-- Navigation Bar -->
-    <header>
-        <nav>
-            <h1 class="logo">YourName</h1>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <button class="menu-toggle">☰</button>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <h2>Hello, I'm <span>Your Name</span></h2>
-        <p>A **Roblox Developer** with 3+ years of scripting experience.</p>
-        <a href="#projects" class="btn">See My Work</a>
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hey! I'm a Roblox scripter with expertise in **Lua scripting**, game mechanics, and system automation. I specialize in **creating interactive and optimized gameplay experiences**.</p>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project">
-            <img src="images/project1.jpg" alt="Project 1">
-            <h3>Project Name</h3>
-            <p>A brief description of what you did in this project.</p>
-        </div>
-        <div class="project">
-            <img src="images/project2.jpg" alt="Project 2">
-            <h3>Project Name</h3>
-            <p>A brief description of what you did in this project.</p>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-    <script src="script.js"></script>
+    <!-- Hero content overlay -->
+    <div class="hero-content">
+      <h2 class="slideUp">Welcome to _proboi's Portfolio</h2>
+      <p class="slideUp delay">Building immersive Roblox worlds through code & creativity.</p>
+      <a href="projects.html" class="btn pulse">Explore My Work</a>
+    </div>
+  </div>
+  
+  <!-- Inline JavaScript for the interactive canvas background -->
+  <script src = "script.js"></script>
 </body>
 </html>
