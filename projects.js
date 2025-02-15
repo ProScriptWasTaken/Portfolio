@@ -2,7 +2,7 @@ const projects = [
     {
       title: "Emote System",
       description: "A fully scripted custom Emote System with Emote Inventory.",
-      youtube: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      youtube: "https://www.youtube.com/embed/zLS2DaZqrR8?si=7Z1bSdydn9zWxYI9"
     },
   ];
 
