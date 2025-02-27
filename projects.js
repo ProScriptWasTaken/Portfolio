@@ -4,6 +4,11 @@ const projects = [
       description: "A fully scripted custom Emote System with Emote Inventory.",
       youtube: "https://www.youtube.com/embed/zLS2DaZqrR8?si=7Z1bSdydn9zWxYI9"
     },
+    {
+        title:"Shop System",
+        description: "A complete custom Shop System with easy addition of items.",
+        youtube: "https://www.youtube.com/embed/tIVZrzzfNjM?si=EM0arMF4RuJZQCEd",
+    }
   ];
 
   function loadProjects() {
