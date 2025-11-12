@@ -11,7 +11,7 @@ const projects = [
     },
     {
         title:"Case System",
-        description: "A complete custom Shop System with easy addition of items.",
+        description: "A complete custom Case System with easy addition of items.",
         youtube: "https://www.youtube.com/embed/vjU6xEIRebM?si=7Ii2BH-ewsRaKt3N&amp",
     }
   ];
